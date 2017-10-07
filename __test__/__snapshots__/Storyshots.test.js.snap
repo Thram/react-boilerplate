@@ -1,0 +1,616 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Addons • Info 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <button
+      onClick={[Function]}
+    >
+      Click Me!
+    </button>
+  </div>
+  <a
+    onClick={[Function]}
+    role="button"
+    style={
+      Object {
+        "background": "#28c",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "textDecoration": "none",
+        "top": 0,
+      }
+    }
+    tabIndex="0"
+  >
+    Show Info
+  </a>
+  <div
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <a
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "#28c",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "textDecoration": "none",
+          "top": 0,
+        }
+      }
+      tabIndex="0"
+    >
+      ×
+    </a>
+    <div
+      style={undefined}
+    >
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginTop": "50px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            Addons
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            • Info
+          </h2>
+        </div>
+        <div
+          style={
+            Object {
+              "marginBottom": 0,
+            }
+          }
+        >
+          <p
+            style={
+              Object {
+                "WebkitFontSmoothing": "antialiased",
+                "color": "#444",
+                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+                "fontSize": "15px",
+              }
+            }
+          >
+            This is the basic usage of the 
+            <pre
+              className=""
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  "lineHeight": 1.5,
+                  "overflowX": "scroll",
+                  "padding": ".5rem",
+                }
+              }
+            >
+              <code
+                className=""
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                    "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  }
+                }
+              />
+            </pre>
+            . Don’t forget to define your 
+            <pre
+              className=""
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  "lineHeight": 1.5,
+                  "overflowX": "scroll",
+                  "padding": ".5rem",
+                }
+              }
+            >
+              <code
+                className=""
+                style={
+                  Object {
+                    "backgroundColor": "#fafafa",
+                    "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  }
+                }
+              />
+            </pre>
+             .
+          </p>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            style={
+              Object {
+                "backgroundColor": "#fafafa",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "fontSize": ".88em",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  &lt;
+                  button
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      onClick
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        <span>
+                          {
+                          <span
+                            style={
+                              Object {
+                                "color": "#170",
+                              }
+                            }
+                          >
+                            Button_Clicked()
+                          </span>
+                          }
+                        </span>
+                      </span>
+                    </span>
+                    
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  &gt;
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 33,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  Click Me!
+                </span>
+              </div>
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  &lt;/
+                  button
+                  &gt;
+                </span>
+              </div>
+            </div>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Addons • Knobs 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "background": "#5CACC4",
+      "borderRadius": "50%",
+      "display": "flex",
+      "height": "100px",
+      "margin": "1rem",
+      "padding": "1rem",
+      "textAlign": "center",
+      "width": "100px",
+    }
+  }
+>
+  Edit my Styles!!
+</div>
+`;
+
+exports[`Storyshots Components • Add Todo 1`] = `
+<form
+  className="pure-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="css-70qvj9"
+  >
+    <input
+      className="pure-input css-1kr4fmq"
+      onChange={[Function]}
+      value=""
+    />
+    <button
+      className="pure-button pure-button-primary"
+      type="submit"
+    >
+      Add Todo
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Storyshots Components • Filter 1`] = `
+<div
+  className="css-0"
+>
+  <h4>
+    
+     :
+  </h4>
+  <div
+    className="pure-button-group css-0"
+  >
+    <button
+      className="pure-button pure-button-primary pure-button-active"
+      onClick={[Function]}
+      type="button"
+    >
+      All
+    </button>
+    <button
+      className="pure-button pure-button-secondary "
+      onClick={[Function]}
+      type="button"
+    >
+      Active
+    </button>
+    <button
+      className="pure-button pure-button-success "
+      onClick={[Function]}
+      type="button"
+    >
+      Completed
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components • Flat Button 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <a
+    className="css-1dvne9p"
+    onClick={[Function]}
+  >
+    <div
+      className="css-70qvj9"
+      style={Object {}}
+    >
+      Text
+    </div>
+  </a>
+  <a
+    className="css-1dvne9p"
+    onClick={[Function]}
+  >
+    <div
+      className="css-70qvj9"
+      style={
+        Object {
+          "width": "100px",
+        }
+      }
+    >
+      <img
+        alt=""
+        src="https://s-media-cache-ak0.pinimg.com/736x/e5/a0/69/e5a06942fa42823c88be5f3a834e063d.jpg"
+      />
+    </div>
+  </a>
+</div>
+`;
+
+exports[`Storyshots Components • Icon 1`] = `
+<div
+  style={
+    Object {
+      "padding": "2rem",
+    }
+  }
+>
+  <h1>
+    Material Icons!
+  </h1>
+  <i
+    className="material-icons"
+    style={
+      Object {
+        "color": "#E6867A",
+      }
+    }
+  >
+    done
+  </i>
+  <i
+    className="material-icons"
+    style={
+      Object {
+        "color": "#ED4A6A",
+        "fontSize": "100px",
+      }
+    }
+  >
+    extension
+  </i>
+  <i
+    className="material-icons"
+    style={
+      Object {
+        "color": "#D9AB91",
+        "fontSize": "50px",
+      }
+    }
+  >
+    face
+  </i>
+  <i
+    className="material-icons"
+    style={
+      Object {
+        "color": "#D9D5A7",
+        "fontSize": "30px",
+      }
+    }
+  >
+    motorcycle
+  </i>
+  <i
+    className="material-icons"
+    style={
+      Object {
+        "color": "#C7FCD7",
+        "fontSize": "80px",
+      }
+    }
+  >
+    pets
+  </i>
+</div>
+`;
+
+exports[`Storyshots Components • Todo List 1`] = `
+<div
+  className="pure-g"
+>
+  <div
+    className="pure-u-1-2"
+  >
+    <h2>
+      
+    </h2>
+    <table
+      className="pure-table css-8atqhb"
+    >
+      <tbody>
+        <tr
+          className="css-wa06hy"
+        >
+          <td>
+            <a
+              className="css-1dvne9p"
+              onClick={[Function]}
+            >
+              <div
+                className="css-70qvj9"
+                style={Object {}}
+              >
+                <i
+                  className="material-icons"
+                >
+                  check_box
+                </i>
+                <span
+                  className="css-77vupy"
+                >
+                  Learn ES6+
+                </span>
+              </div>
+            </a>
+          </td>
+        </tr>
+        <tr
+          className="css-1kakr30"
+        >
+          <td>
+            <a
+              className="css-1dvne9p"
+              onClick={[Function]}
+            >
+              <div
+                className="css-70qvj9"
+                style={Object {}}
+              >
+                <i
+                  className="material-icons"
+                >
+                  check_box_outline_blank
+                </i>
+                <span
+                  className="css-77vupy"
+                >
+                  Learn React+Redux
+                </span>
+              </div>
+            </a>
+          </td>
+        </tr>
+        <tr
+          className="css-1kakr30"
+        >
+          <td>
+            <a
+              className="css-1dvne9p"
+              onClick={[Function]}
+            >
+              <div
+                className="css-70qvj9"
+                style={Object {}}
+              >
+                <i
+                  className="material-icons"
+                >
+                  check_box_outline_blank
+                </i>
+                <span
+                  className="css-77vupy"
+                >
+                  Learn Webpack
+                </span>
+              </div>
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
