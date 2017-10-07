@@ -12,13 +12,13 @@ import { optimize, LoaderOptionsPlugin, DefinePlugin } from 'webpack';
 
 const isProd = process.env.NODE_ENV === 'production';
 const include = [resolve(__dirname, './src'), resolve(__dirname, './stories')];
-const exclude = [resolve(__dirname, '../node_modules/')];
+const exclude = [resolve(__dirname, './node_modules/')];
 
-const getRule = (test, use) => ({
+const getRule = (test, use, includeModules) => ({
   test,
   use,
-  include,
-  exclude,
+  include: includeModules ? [...include, ...exclude] : include,
+  exclude: includeModules ? undefined : exclude,
 });
 
 const INDEX_HTML_SETUP = {
@@ -93,15 +93,19 @@ if (isProd) {
 
 const module = {
   rules: [
-    getRule(/\.jsx?$/, [
-      {
-        loader: 'babel-loader',
-        options: {
-          compact: isProd,
-          cacheDirectory: true,
+    getRule(
+      /\.jsx?$/,
+      [
+        {
+          loader: 'babel-loader',
+          options: {
+            compact: isProd,
+            cacheDirectory: true,
+          },
         },
-      },
-    ]),
+      ],
+      true,
+    ),
     getRule(/\.json$/i, ['json-loader']),
     getRule(/\.ya?ml$/i, ['json-loader', 'yaml-loader']),
     getRule(/\.(jpe?g|png|gif|svg|webp)$/i, 'file-loader?name=images/[name].[ext]'),
@@ -117,46 +121,23 @@ const module = {
         })
         : ['style-loader', 'css-loader'],
     ),
-    getRule(
-      /\.scss$/i,
-      isProd
-        ? ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: ['css-loader?modules', 'sass-loader'],
-        })
-        : [
-          'style-loader',
-          {
-            loader: 'css-loader',
-            options: { modules: true, sourceMap: !isProd },
-          },
-          {
-            loader: 'sass-loader',
-            options: { sourceMap: !isProd },
-          },
-        ],
-    ),
   ],
 };
 
 export default function (env = {}) {
-  plugins.push(
-    new CompressionPlugin({
-      asset: '[path].gz[query]',
-      algorithm: 'gzip',
-      test: /\.(js|css|html)$/,
-      threshold: 10240,
-      minRatio: 0.8,
-    }),
-  );
-  plugins.push(
-    new HtmlwebpackPlugin({
-      ...INDEX_HTML_SETUP,
-      inject: false,
-      chunks: ['vendor', 'manifest', 'app'],
-      filename: `${__dirname}/${env.qa ? 'qa' : 'release'}/index.html`,
-    }),
-  );
+  plugins.push(new CompressionPlugin({
+    asset: '[path].gz[query]',
+    algorithm: 'gzip',
+    test: /\.(js|css|html)$/,
+    threshold: 10240,
+    minRatio: 0.8,
+  }));
+  plugins.push(new HtmlwebpackPlugin({
+    ...INDEX_HTML_SETUP,
+    inject: false,
+    chunks: ['vendor', 'manifest', 'app'],
+    filename: `${__dirname}/${env.qa ? 'qa' : 'release'}/index.html`,
+  }));
   if (env.analyze) plugins.push(new BundleAnalyzerPlugin());
   return {
     cache: true,
