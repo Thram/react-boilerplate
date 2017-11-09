@@ -92,19 +92,35 @@ Creates QA release at `./qa` and shows a bundle analyze
 #### Recommended Settings: 
 ```javascript
 {
-    "files.autoSave": "onFocusChange",
-    "editor.formatOnSave": true,
-    "prettier.eslintIntegration": true,
-    "beautify.language": {
-        "css": [
-            "css",
-            "scss"
-        ],
-        "html": [
-            "htm",
-            "html"
-        ]
-    }
+  // Place your settings in this file to overwrite the default settings
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.history": true
+  },
+  "editor.formatOnSave": true,
+  "files.associations": {
+    ".nycrc": "json",
+    ".czrc": "json"
+  },
+  "prettier.eslintIntegration": true,
+  "beautify.language": {
+    "css": ["css", "scss"],
+    "html": ["htm", "html", "svg"]
+  },
+  "search.exclude": {
+    "**/.history": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "stage": true,
+    "build": true,
+    "dist": true,
+    "lib": true
+  }
 }
 ```
 
