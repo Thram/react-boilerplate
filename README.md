@@ -157,7 +157,7 @@ Creates QA release at `./qa` and shows a bundle analyze
 - [Let’s explore ES6 Generators](https://medium.freecodecamp.org/lets-explore-es6-generators-5e58ed23b0f1)
 - [Arrays, Objects and Mutations](https://medium.com/@fknussel/arrays-objects-and-mutations-6b23348b54aa)
 - [Debugging React Like a Champ with VSCode](https://hackernoon.com/debugging-react-like-a-champ-with-vscode-66281760037)
-- [Modern JS Cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet)
+- [Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/)
 
 ### Videos
 - [Functional programming in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
