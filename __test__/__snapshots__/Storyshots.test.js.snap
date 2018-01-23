@@ -16,12 +16,12 @@ exports[`Storyshots Addons • Info 1`] = `
       Click Me!
     </button>
   </div>
-  <a
+  <button
     onClick={[Function]}
-    role="button"
     style={
       Object {
         "background": "#28c",
+        "border": "none",
         "borderRadius": "0 0 0 5px",
         "color": "#fff",
         "cursor": "pointer",
@@ -31,14 +31,13 @@ exports[`Storyshots Addons • Info 1`] = `
         "padding": "5px 15px",
         "position": "fixed",
         "right": 0,
-        "textDecoration": "none",
         "top": 0,
       }
     }
-    tabIndex="0"
+    type="button"
   >
     Show Info
-  </a>
+  </button>
   <div
     style={
       Object {
@@ -55,12 +54,12 @@ exports[`Storyshots Addons • Info 1`] = `
       }
     }
   >
-    <a
+    <button
       onClick={[Function]}
-      role="button"
       style={
         Object {
           "background": "#28c",
+          "border": "none",
           "borderRadius": "0 0 0 5px",
           "color": "#fff",
           "cursor": "pointer",
@@ -70,14 +69,13 @@ exports[`Storyshots Addons • Info 1`] = `
           "padding": "5px 15px",
           "position": "fixed",
           "right": 0,
-          "textDecoration": "none",
           "top": 0,
         }
       }
-      tabIndex="0"
+      type="button"
     >
       ×
-    </a>
+    </button>
     <div
       style={undefined}
     >
@@ -94,7 +92,8 @@ exports[`Storyshots Addons • Info 1`] = `
             "fontSize": "15px",
             "fontWeight": 300,
             "lineHeight": 1.45,
-            "marginTop": "50px",
+            "marginBottom": "20px",
+            "marginTop": "20px",
             "padding": "20px 40px 40px",
           }
         }
@@ -139,7 +138,7 @@ exports[`Storyshots Addons • Info 1`] = `
             }
           }
         >
-          <p
+          <div
             style={
               Object {
                 "WebkitFontSmoothing": "antialiased",
@@ -150,53 +149,15 @@ exports[`Storyshots Addons • Info 1`] = `
             }
           >
             This is the basic usage of the 
-            <pre
-              className=""
-              style={
-                Object {
-                  "backgroundColor": "#fafafa",
-                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
-                  "lineHeight": 1.5,
-                  "overflowX": "scroll",
-                  "padding": ".5rem",
-                }
-              }
-            >
-              <code
-                className=""
-                style={
-                  Object {
-                    "backgroundColor": "#fafafa",
-                    "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
-                  }
-                }
-              />
-            </pre>
+            <code>
+              info addon
+            </code>
             . Don’t forget to define your 
-            <pre
-              className=""
-              style={
-                Object {
-                  "backgroundColor": "#fafafa",
-                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
-                  "lineHeight": 1.5,
-                  "overflowX": "scroll",
-                  "padding": ".5rem",
-                }
-              }
-            >
-              <code
-                className=""
-                style={
-                  Object {
-                    "backgroundColor": "#fafafa",
-                    "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
-                  }
-                }
-              />
-            </pre>
+            <code>
+              propTypes
+            </code>
              .
-          </p>
+          </div>
         </div>
         <div>
           <h1
@@ -264,7 +225,7 @@ exports[`Storyshots Addons • Info 1`] = `
                               }
                             }
                           >
-                            Button_Clicked()
+                            Button Clicked()
                           </span>
                           }
                         </span>

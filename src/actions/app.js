@@ -1,10 +1,18 @@
-const APP_SET_LANGUAGE = 'APP_SET_LANGUAGE';
+import { actionType } from '../utils/tools';
+
+const appType = actionType('app');
+
+const SET_LANGUAGE = appType('SET_LANGUAGE');
 const setLanguage = lang => ({
-  type: APP_SET_LANGUAGE,
+  type: SET_LANGUAGE,
   payload: lang,
 });
 
-const types = { APP_SET_LANGUAGE };
+const types = {
+  SET_LANGUAGE,
+};
 
 export { types };
-export default { setLanguage };
+export default {
+  setLanguage,
+};

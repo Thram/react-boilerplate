@@ -14,5 +14,13 @@ const execute = commands => (commandName, options) =>
 
 const Enum = (...args) => zipObject(args.map(value => snakeCase(value)), args);
 
-export { validate, execute, Enum };
-export default { validate, execute, Enum };
+const actionType = namespace => action =>
+  `@${snakeCase(namespace)}/${snakeCase(action).toUpperCase()}`;
+
+export { validate, execute, actionType, Enum };
+export default {
+  validate,
+  execute,
+  actionType,
+  Enum,
+};

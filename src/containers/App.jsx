@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import { HashRouter as Router, Route } from 'react-router-dom';
 import styled from 'react-emotion';
 import Navigation from '../components/Navigation';
-import { content } from './ContentProvider';
+import { content } from '../content';
 import Todos from './Todos';
 import Mocks from './Mocks';
 import Assets from './Assets';
@@ -25,9 +25,6 @@ const MainContainer = styled.div({
   position: 'absolute',
   top: 0,
   left: 0,
-  width: '100%',
-  height: '100%',
-  overflow: 'hidden',
   padding: '2rem',
 });
 const Container = styled.div({ width: '100%', height: '100%' });

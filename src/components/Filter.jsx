@@ -3,7 +3,7 @@ import { map, capitalize } from 'lodash';
 import styled from 'react-emotion';
 import { FILTER_TYPES } from '../utils/todos';
 import pureCSS from '../utils/pure';
-import { content } from '../containers/ContentProvider';
+import { content } from '../content';
 import FilterButton from './FilterButton';
 
 const CLASSES = {

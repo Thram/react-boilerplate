@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'react-emotion';
 import Todo from '../components/Todo';
 import pureCSS from '../utils/pure';
-import { content } from '../containers/ContentProvider';
+import { content } from '../content';
 
 const CLASSES = {
   container: pureCSS.group,

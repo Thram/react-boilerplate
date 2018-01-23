@@ -1,12 +1,23 @@
 {
-  "presets": ["es2015", "stage-2", "react"],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": "> 2%"
+        }
+      }
+    ],
+    "stage-2",
+    "react"
+  ],
   "plugins": ["emotion"],
   "env": {
-    "development": {
-      "plugins": ["react-element-info"]
-    },
     "production": {
-      "plugins": ["transform-remove-console"]
+      "plugins": [["emotion", { "hoist": true }], "transform-remove-console"]
+    },
+    "development": {
+      "plugins": [["emotion", { "sourceMap": true, "autoLabel": true }, "react-element-info"]]
     }
   }
 }

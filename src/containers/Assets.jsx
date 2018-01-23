@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from '../components/Icon';
-import { content } from '../containers/ContentProvider';
+import { content } from '../content';
 import { Images } from '../assets';
 
 const Assets = () => (

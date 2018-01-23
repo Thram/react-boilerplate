@@ -7,7 +7,7 @@ import {
   getAlbums as getAlbumsAction,
 } from '../actions/mocks';
 import pureCSS from '../utils/pure';
-import { content } from '../containers/ContentProvider';
+import { content } from '../content';
 
 const CLASSES = {
   buttonGroup: pureCSS.buttonGroup,
