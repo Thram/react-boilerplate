@@ -31,7 +31,16 @@ const INDEX_HTML_SETUP = {
       content: 'user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1',
     },
   ],
-  links: ['./node_modules/purecss/build/pure-min.css'],
+  links: [ 
+    isProd ? 
+    {
+      rel: "stylesheet",
+      href: "https://unpkg.com/purecss@1.0.0/build/pure-min.css",
+      integrity: "sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w", 
+      crossorigin: "anonymous"
+    } 
+    : './node_modules/purecss/build/pure-min.css'
+  ],
   inject: false,
 };
 
@@ -98,6 +107,7 @@ const module = {
       [
         {
           loader: 'babel-loader',
+          exclude: /(node_modules)/,
           options: {
             compact: isProd,
             cacheDirectory: true,
