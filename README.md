@@ -1,5 +1,7 @@
 # Thram's Boilerplate for React Applications
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Thram/react-boilerplate.svg)](https://greenkeeper.io/)
+
 # Setup
 
 **NOTE: I'm using `yarn` for this boilerplate as a personal preference. You can easily update the code to use just `npm`.**
