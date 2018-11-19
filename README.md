@@ -148,6 +148,7 @@ Creates QA release at `./qa` and shows a bundle analyze
 - [Nested Ternaries are Great](https://medium.com/javascript-scene/nested-ternaries-are-great-361bddd0f340)
 - [Abstraction & Composition](https://medium.com/javascript-scene/abstraction-composition-cb2849d5bdd6)
 - [The Forgotten History of OOP](https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f)
+- [Curry and Function Composition](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983)
 
 ### TDD
 - [TDD the RITE Way](https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3)
