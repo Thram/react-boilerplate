@@ -150,6 +150,7 @@ Creates QA release at `./qa` and shows a bundle analyze
 - [The Forgotten History of OOP](https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f)
 - [Curry and Function Composition](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983)
 - [Transducers: Efficient Data Processing Pipelines in JavaScript](https://medium.com/javascript-scene/transducers-efficient-data-processing-pipelines-in-javascript-7985330fe73d)
+- [Lenses](https://medium.com/javascript-scene/lenses-b85976cb0534)
 
 ### TDD
 - [TDD the RITE Way](https://medium.com/javascript-scene/tdd-the-rite-way-53c9b46f45e3)
